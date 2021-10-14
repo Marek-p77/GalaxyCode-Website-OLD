@@ -1,0 +1,131 @@
+@charset "UTF-8";
+/* GalaxyCode Website v1.0 By Marek_p */
+/* ----------[ NASTAVENÍ ]----------- */
+/* Barva Textu */
+/* Výchozí Barva */
+/* Velikost písma */
+/* Tloušťka ráměčků */
+/* Výchozí margin */
+/* Výchozí padding */
+/* Font textu na webu */
+/* Výchozí zaoblení rohů */
+/* ----------------------------------- */
+/* Obecné */
+body {
+  background-color: #000;
+  /* Barva pozadí */
+  background-image: url("images/background.jpg");
+  /* Obrázek na pozadí */
+  background-repeat: no-repeat;
+  /* Vypnutí opakování obrázku na pozadí */
+  background-size: 100%;
+  /* Rozloha obrázku na pozadí */
+}
+
+* {
+  font-family: Arial;
+  /* Všechen font z nastavení */
+  padding: 0px;
+  /* Výchozí padding z nastavení */
+  margin: 0px;
+  /* Výchozí margin z nastavení */
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  /* Bos sizing */
+}
+
+/* Hlavička */
+.header {
+  text-align: center;
+  /* Zarovnání textu na střed stránky */
+  border: 2px solid rgba(255, 255, 255, 0);
+  /* Průhledný Rámeček */
+  background-image: -webkit-gradient(linear, right top, left top, from(#0044d6), to(#007fc9));
+  background-image: linear-gradient(to left, #0044d6, #007fc9);
+  /* Stínovaná barva pozadí hlavičky */
+  color: white;
+  /* Barva textu hlavičky z nastavení */
+  padding: 10px 0 10px 0;
+  /* Vnitřní rozpolha nahoru a dolů */
+  -webkit-box-shadow: 0px 5px 0px black;
+          box-shadow: 0px 5px 0px black;
+  /* Stín hlavičky */
+}
+
+.header h1:hover {
+  color: #dbdbdb;
+  /* Barva textu při najetí myší na nadpis */
+}
+
+.header h1 {
+  width: 150px;
+  /* Šířka nadpisu */
+  margin: 0 auto;
+  /* Zarovnání na střed */
+  position: relative;
+  /* Relativní pozice */
+  margin-top: -17px;
+  /* Poloha */
+  padding-bottom: 7px;
+  /* Poloha */
+}
+
+.header .logo {
+  width: 50px;
+  /* Velikost Loga */
+  position: relative;
+  /* Relativní pozice */
+  margin-bottom: -27px;
+  /* Poloha */
+  margin-left: -96%;
+  /* Poloha */
+  border-radius: 15px;
+  /* Zaoblení Loga podle nastavení */
+}
+
+.header .logo:hover {
+  -webkit-box-shadow: 3px 3px 3px white;
+          box-shadow: 3px 3px 3px white;
+  /* Stín při najetí myší na logo */
+}
+
+/* Pod Hlavičkou */
+.container .underheader {
+  border: 2px solid #007fc9;
+  /* Barva rámečku */
+  background: #007fc9;
+  /* Pozadí textové části */
+  border-radius: 15px;
+  /* Zaoblení rohů dle nastavení */
+  -webkit-box-shadow: 5px 5px 0px black;
+          box-shadow: 5px 5px 0px black;
+  /* Stín textové oblasti */
+  padding: 5px;
+  /* Oddálení textu od hran */
+  width: 40%;
+  /* Šířka textové části */
+  margin: 0 auto;
+  /* Zarovnání na střed */
+  margin-top: 20px;
+  /* Oddálení od hlavičky */
+}
+
+.container .underheader h2 {
+  color: white;
+  /* Barva podnadpisu dle nastavení */
+}
+
+.container .underheader p {
+  color: white;
+  /* Barva textu dle nastavení */
+}
+
+a {
+  color: #dbdbdb;
+  /* Barva odkazu */
+  text-decoration: none;
+  /* Odstranění podtržení odkazu */
+}
+
+/*                      The End :)                        */
+/*# sourceMappingURL=style.css.map */

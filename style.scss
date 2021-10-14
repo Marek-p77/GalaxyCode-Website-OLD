@@ -1,0 +1,84 @@
+/* GalaxyCode Website v1.0 By Marek_p */
+/* ----------[ NASTAVENÍ ]----------- */
+
+$text-color: rgb(255, 255, 255); /* Barva Textu */
+$bg-color: rgb(0, 127, 201); /* Výchozí Barva */
+$font-size: 30px; /* Velikost písma */
+$border-size: 2px; /* Tloušťka ráměčků */
+$all-margin: 0px; /* Výchozí margin */
+$all-pading: 0px; /* Výchozí padding */
+$font: Arial; /* Font textu na webu */
+$border-radius: 15px; /* Výchozí zaoblení rohů */
+
+/* ----------------------------------- */
+/* Obecné */
+
+body {
+    background-color: #000; /* Barva pozadí */
+    background-image: url("images/background.jpg"); /* Obrázek na pozadí */
+    background-repeat: no-repeat; /* Vypnutí opakování obrázku na pozadí */
+    background-size: 100%; /* Rozloha obrázku na pozadí */
+}
+* {
+    font-family: $font; /* Všechen font z nastavení */
+    padding: $all-pading; /* Výchozí padding z nastavení */
+    margin: $all-margin; /* Výchozí margin z nastavení */
+    box-sizing: border-box; /* Bos sizing */
+}
+
+/* Hlavička */
+
+.header {
+    text-align: center; /* Zarovnání textu na střed stránky */
+    border: $border-size solid rgba(255, 255, 255, 0); /* Průhledný Rámeček */
+    background-image: linear-gradient(to left, rgb(0, 68, 214), $bg-color); /* Stínovaná barva pozadí hlavičky */
+    color: $text-color; /* Barva textu hlavičky z nastavení */
+    padding: 10px 0 10px 0; /* Vnitřní rozpolha nahoru a dolů */
+    box-shadow: 0px 5px 0px black; /* Stín hlavičky */
+}
+.header h1:hover {
+    color: rgb(219, 219, 219); /* Barva textu při najetí myší na nadpis */
+}
+.header h1 {
+    width: 150px; /* Šířka nadpisu */
+    margin: 0 auto; /* Zarovnání na střed */
+    position: relative; /* Relativní pozice */
+    margin-top: -17px; /* Poloha */
+    padding-bottom: 7px; /* Poloha */
+}
+.header .logo {
+    width: 50px; /* Velikost Loga */
+    position: relative; /* Relativní pozice */
+    margin-bottom: -27px; /* Poloha */
+    margin-left: -96%; /* Poloha */
+    border-radius: $border-radius; /* Zaoblení Loga podle nastavení */
+}
+.header .logo:hover {
+    box-shadow: 3px 3px 3px white; /* Stín při najetí myší na logo */
+}
+
+/* Pod Hlavičkou */
+
+.container .underheader {
+    border: 2px solid $bg-color; /* Barva rámečku */
+    background: $bg-color; /* Pozadí textové části */
+    border-radius: $border-radius; /* Zaoblení rohů dle nastavení */
+    box-shadow: 5px 5px 0px black; /* Stín textové oblasti */
+    padding: 5px; /* Oddálení textu od hran */
+    width: 40%; /* Šířka textové části */
+    margin: 0 auto; /* Zarovnání na střed */
+    margin-top: 20px; /* Oddálení od hlavičky */
+
+}
+.container .underheader h2 {
+    color: $text-color; /* Barva podnadpisu dle nastavení */
+}
+.container .underheader p {
+    color: $text-color; /* Barva textu dle nastavení */
+}
+a {
+    color: rgb(219, 219, 219); /* Barva odkazu */
+    text-decoration: none; /* Odstranění podtržení odkazu */
+}
+
+/*                      The End :)                        */
