@@ -6,4 +6,8 @@ Velmi základní web pro naši developerskou komunitu. Jako vždy velmi dobře p
 
 Poznámka: Brzy můžete očekávat velký update, kompletní recode :)
 
+
+EDIT: Recode -> https://github.com/Marek-p77/GalaxyWebsite
+
+
 ![](https://media.discordapp.net/attachments/890597852982689872/898253744939077742/screen.png?width=891&height=473)
