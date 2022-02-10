@@ -1,4 +1,4 @@
-# GalaxyCode Website [OLD] v1.0
+# GalaxyCode Website v1.0 [OLD]
 
 ### 📄 Popis
 
